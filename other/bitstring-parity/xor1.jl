@@ -1,6 +1,7 @@
 include("data.jl")
 using Flux
 using Flux: onehot, onehotbatch, throttle, crossentropy, reset!, argmax
+using Random: bitrand
 
 const epochs = 20
 
